@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto+Mono:ital,wght@1,700&display=swap');
+
+@font-face{font-family: bubble ;
+    src: url('font/PowerBubble.ttf') format('truetype');
+    src: url('font/PowerBubble.otf') format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #45050C;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around ;
+    padding: 24px;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+}
+
+nav a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 10px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+
+nav a:hover{
+    background-color: #fabc2a;
+    color: #45050C;
+}
+
+nav a:active{
+    background-color: #f05365;
+}
+
+main{
+    margin-bottom: 38px;
+    border-top: 0.4px solid white;
+
+}
+
+.sc1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around ;
+}
+
+.sc1 p{
+    font-size: 20px;
+    color: white;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+div h1{
+    font-family: bubble;
+    font-weight:400px ;
+    font-size: 80px;
+    color: white;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fabc2a;
+    font-size: 30px;
+    font-weight: 400px;
+}
+
+button{
+    background-color: #fabc2a;
+    width: 180px;
+    height:60px ;
+    border-radius: 15px;
+    font-size: 30px;
+    
+}
+
+h3{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:400px ;
+    font-size: 25px;
+    color: #f05365;
+}
+
+.sc2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top:38px ;
+
+}
+
+footer{
+    height: 48px;
+    display: block;
+    text-align: center;
+}
+
+footer h1{
+
+    color:#fabc2a;
+}
