@@ -14,6 +14,7 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    font-size: 3vw;
 }
 
 header > h1{
@@ -40,6 +41,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.6vw;
 }
 
 section.normal{
