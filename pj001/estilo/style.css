@@ -52,12 +52,26 @@ section.normal{
 section.imagem{
     background-color: #333333;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     width: 400px;
-    background-color: #00000077;
+    background-color: #00000091;
     color: white;
+}
+
+section#img01{
+    background-image: url(../imagens/backgroud001.jpg);
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url(../imagens/background003.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 
 footer{
